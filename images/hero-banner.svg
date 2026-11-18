@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 620">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8eee4"/><stop offset=".52" stop-color="#ead9cf"/><stop offset="1" stop-color="#dce2d4"/></linearGradient>
+ <linearGradient id="fabric" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffaf2"/><stop offset=".55" stop-color="#e7d6c8"/><stop offset="1" stop-color="#c7b29c"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d7bd83"/><stop offset="1" stop-color="#987744"/></linearGradient>
+ <filter id="shadow"><feGaussianBlur stdDeviation="16"/></filter>
+</defs>
+<rect width="1600" height="620" fill="url(#bg)"/>
+<circle cx="1270" cy="80" r="280" fill="#fff8ef" opacity=".35"/>
+<path d="M0 510 Q250 430 470 520 T930 500 T1600 480 V620 H0Z" fill="#fff9f1" opacity=".65"/>
+<path d="M0 0 H1600 V90 Q1250 140 900 70 T0 110Z" fill="#ffffff" opacity=".16"/>
+<!-- arched alcove -->
+<path d="M570 620 V250 Q570 45 800 45 Q1030 45 1030 250 V620Z" fill="#f7eee4" opacity=".55"/>
+<path d="M610 620 V260 Q610 90 800 90 Q990 90 990 260 V620" fill="none" stroke="#c6a97b" stroke-width="3" opacity=".55"/>
+<!-- clothing rack -->
+<g stroke="#9a7748" stroke-width="10" fill="none" stroke-linecap="round">
+ <path d="M115 170 H530 M145 170 V590 M500 170 V590"/>
+ <path d="M325 170 V120 Q325 75 365 75 Q405 75 405 120"/>
+</g>
+<g stroke="#a27e50" stroke-width="5" fill="none">
+ <path d="M190 175 q0 28 28 28 q28 0 28 -28"/>
+ <path d="M285 175 q0 28 28 28 q28 0 28 -28"/>
+ <path d="M380 175 q0 28 28 28 q28 0 28 -28"/>
+</g>
+<!-- garments -->
+<g>
+ <path d="M190 205 Q170 235 158 280 L135 565 Q220 590 285 565 L260 280 Q245 235 220 205 L205 235Z" fill="#f7f1e7" stroke="#c9b79e" stroke-width="3"/>
+ <path d="M285 205 Q265 235 252 280 L230 570 Q315 592 380 570 L355 280 Q340 235 315 205 L300 235Z" fill="#d7c5bb" stroke="#b49d8b" stroke-width="3"/>
+ <path d="M380 205 Q360 235 347 280 L325 565 Q410 590 475 565 L450 280 Q435 235 410 205 L395 235Z" fill="#dce2d4" stroke="#aeb89f" stroke-width="3"/>
+ <path d="M190 205 L205 235 L220 205 M285 205 L300 235 L315 205 M380 205 L395 235 L410 205" fill="none" stroke="#b69b62" stroke-width="3"/>
+ <path d="M160 300 Q220 320 260 300 M255 300 Q315 320 355 300 M350 300 Q410 320 450 300" fill="none" stroke="#fff" stroke-width="3" opacity=".55"/>
+</g>
+<!-- flowing fabric -->
+<path d="M1060 620 Q1160 490 1100 390 Q1040 280 1175 205 Q1280 145 1400 205 Q1490 250 1600 170 V620Z" fill="url(#fabric)" opacity=".92"/>
+<path d="M1080 620 Q1190 500 1135 395 Q1080 285 1210 225 Q1330 170 1450 230 Q1520 270 1600 220" fill="none" stroke="#fffaf4" stroke-width="16" opacity=".6"/>
+<!-- floral sprigs -->
+<g fill="#fffaf3" stroke="#c9b58d" stroke-width="2" opacity=".9">
+ <g transform="translate(75 100)"><circle r="13"/><circle cx="20" cy="0" r="12"/><circle cx="10" cy="18" r="12"/><circle cx="-10" cy="18" r="12"/><circle cx="-20" cy="0" r="12"/><circle cx="0" cy="-18" r="12"/><circle r="5" fill="#d2b477"/></g>
+ <g transform="translate(70 265) scale(.8)"><circle r="13"/><circle cx="20" cy="0" r="12"/><circle cx="10" cy="18" r="12"/><circle cx="-10" cy="18" r="12"/><circle cx="-20" cy="0" r="12"/><circle cx="0" cy="-18" r="12"/><circle r="5" fill="#d2b477"/></g>
+ <g transform="translate(540 85) scale(.7)"><circle r="13"/><circle cx="20" cy="0" r="12"/><circle cx="10" cy="18" r="12"/><circle cx="-10" cy="18" r="12"/><circle cx="-20" cy="0" r="12"/><circle cx="0" cy="-18" r="12"/><circle r="5" fill="#d2b477"/></g>
+</g>
+<g stroke="#9ba987" stroke-width="5" fill="none"><path d="M0 390 Q65 270 120 150 M15 445 Q90 350 145 290 M40 500 Q105 420 165 390"/><path d="M120 150 q-40 -35 -55 -8 q10 35 55 8 M145 290 q-40 -35 -60 -5 q20 35 60 5 M165 390 q-35 -35 -65 -5 q15 35 65 5"/></g>
+<!-- subtle gold sparkles -->
+<g fill="url(#gold)" opacity=".75"><path d="M800 175 l8 22 22 8 -22 8 -8 22 -8 -22 -22 -8 22 -8Z"/><circle cx="930" cy="310" r="5"/><circle cx="720" cy="390" r="4"/><circle cx="1010" cy="120" r="4"/></g>
+</svg>
