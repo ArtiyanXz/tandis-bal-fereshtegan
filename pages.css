@@ -193,20 +193,3 @@
 @media(prefers-reduced-motion:reduce){
  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}
 }
-
-
-@media(max-width:600px){
- .info-page{overflow:hidden}
- .info-hero{min-height:220px;padding:36px 16px;background-position:center}
- .info-hero h1{font-size:25px;line-height:1.7}
- .info-hero p{font-size:12px;line-height:2}
- .about-story,.contact-section{padding:28px 14px;gap:22px}
- .about-art img{width:100%;height:auto;max-height:320px;object-fit:cover}
- .about-copy h2,.contact-intro h2{font-size:21px;line-height:1.8}
- .about-copy p,.contact-intro p{font-size:13px;line-height:2.1}
- .contact-cards{grid-template-columns:1fr;gap:12px}
- .contact-card{min-height:170px;padding:20px 14px}
- .ticket-form,.contact-form{padding:18px 14px;border-radius:16px}
- .ticket-form input,.ticket-form textarea,.contact-form input,.contact-form textarea{width:100%;min-height:44px;font-size:14px}
- .info-page button,.info-page a.button{min-height:44px}
-}

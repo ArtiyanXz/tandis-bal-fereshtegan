@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://artiyanxz.github.io/tandis-bal-fereshtegan/sitemap.xml
