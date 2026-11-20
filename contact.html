@@ -1,16 +1,28 @@
 <!DOCTYPE html><html lang="fa" dir="rtl"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>تماس با ما | تندیس بال فرشتگان</title>
+<title>تماس با تندیس فرشتگان | تولیدی پوشاک</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="shop.css"><link rel="stylesheet" href="pages.css"></head><body>
+<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="shop.css"><link rel="stylesheet" href="pages.css">  <meta name="description" content="راه‌های ارتباط با تندیس فرشتگان؛ ارسال پرسش، پیشنهاد و درخواست از طریق ایمیل و ایتا.">
+
+  <meta name="theme-color" content="#243f2c">
+  <meta name="application-name" content="تندیس فرشتگان">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="تندیس فرشتگان">
+  <meta property="og:title" content="تماس با تندیس فرشتگان | تولیدی پوشاک">
+  <meta property="og:description" content="راه‌های ارتباط با تندیس فرشتگان؛ ارسال پرسش، پیشنهاد و درخواست از طریق ایمیل و ایتا.">
+  <meta property="og:url" content="https://artiyanxz.github.io/tandis-bal-fereshtegan/contact.html">
+  <meta property="og:image" content="https://artiyanxz.github.io/tandis-bal-fereshtegan/images/tandis-social-preview.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head><body>
 <div class="announcement"><div class="announcement-track">
 <span>خرید مستقیم از تولیدکننده، بدون واسطه</span><b>✦</b><span>انتخابی زیبا برای هر سلیقه</span><b>✦</b>
 <span>پوشاک زنانه، مردانه و بچگانه</span><b>✦</b><span>کیفیت و تنوع در کنار هم</span><b>✦</b>
 <span>خرید مستقیم از تولیدکننده، بدون واسطه</span><b>✦</b><span>انتخابی زیبا برای هر سلیقه</span><b>✦</b>
 </div></div>
 <header class="site-header">
-<a class="brand" href="index.html"><span class="brand-mark">✦</span><span>تندیس بال فرشتگان<small>TANDIS BAL FERESTEGAN</small></span></a>
+<a class="brand" href="index.html"><span class="brand-mark">✦</span><span>تندیس فرشتگان<small>TANDIS FERESHTEGAN</small></span></a>
 <nav class="nav" aria-label="منوی اصلی">
 <a href="index.html">صفحه اصلی</a><a href="shop.html">محصولات</a>
 <div class="nav-dropdown"><a class="nav-dropdown-trigger" href="index.html#categories" aria-haspopup="true">دسته‌بندی‌ها <span>⌄</span></a>
@@ -54,16 +66,16 @@
 </form></div>
 </section></main>
 <footer class="footer footer-luxe">
-<a class="brand footer-brand" href="index.html"><span class="brand-mark">✦</span><span>تندیس بال فرشتگان<small>TANDIS BAL FERESTEGAN</small></span></a>
+<a class="brand footer-brand" href="index.html"><span class="brand-mark">✦</span><span>تندیس فرشتگان<small>TANDIS FERESHTEGAN</small></span></a>
 <p>انتخابی زیبا برای هر سلیقه؛ همراه شما در انتخاب پوشاک</p>
 <div class="footer-links"><a href="index.html">صفحه اصلی</a><a href="shop.html">محصولات</a><a href="about.html">درباره ما</a><a href="contact.html">تماس با ما</a></div>
-<div class="footer-bottom">© تمامی حقوق برای تندیس بال فرشتگان محفوظ است.</div></footer><script>
+<div class="footer-bottom">© تمامی حقوق برای تندیس فرشتگان محفوظ است.</div></footer><script>
 document.getElementById('ticketForm').addEventListener('submit',function(event){
  event.preventDefault();
  const f=new FormData(this), email=String(f.get('email')||'').trim(), phone=String(f.get('phone')||'').trim();
  const status=document.getElementById('ticketStatus');
  if(!email&&!phone){status.textContent='لطفاً ایمیل یا شماره تماس را وارد کنید.';return;}
- const subject='تیکت سایت تندیس بال فرشتگان - '+String(f.get('subject'));
+ const subject='تیکت سایت تندیس فرشتگان - '+String(f.get('subject'));
  const body='نام: '+f.get('fullname')+'\\nنام کاربری: '+f.get('username')+'\\nایمیل: '+(email||'ثبت نشده')+'\\nشماره تماس: '+(phone||'ثبت نشده')+'\\n\\nمتن درخواست:\\n'+f.get('message');
  status.textContent='در حال باز کردن برنامه ایمیل...';
  window.location.href='mailto:tandis.fereshtegan.ir@gmail.com?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);
